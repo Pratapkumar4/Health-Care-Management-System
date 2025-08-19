@@ -1,57 +1,19 @@
-This project is a Health Care Management System built using C++ (OOP concepts). It provides essential hospital management features such as doctor search, appointment booking, room management, billing, laboratory test handling, and ambulance booking.
+# Health Care Management System
 
-The system demonstrates practical use of Object-Oriented Programming (OOP) with inheritance, polymorphism, templates, exception handling, dynamic memory management (smart pointers), and encapsulation.
+This project is a **C++ based Healthcare Management System** that allows hospitals to manage:
+- Doctors and Nurses
+- Appointments
+- Room Bookings
+- Billing
+- Laboratory Tests
+- Pharmacy Orders
+- Ambulance Booking
 
-🚀 Features
-
-Hospital Management
-
-Stores hospital details (name, address).
-
-Manages doctors, nurses, and staff using inheritance.
-
-Allows searching doctors by specialization (case-insensitive).
-
-Doctor & Staff Management
-
-Staff (abstract class) with derived classes: Doctor and Nurse.
-
-Salary calculation for different staff roles.
-
-Contact info updates and department assignments.
-
-Appointments
-
-Book appointments with doctors.
-
-Cancel existing appointments with proper exception handling.
-
-Room Management
-
-Book rooms for patients.
-
-Cancel booked rooms.
-
-Exception handling if a room is already booked or not found.
-
-Billing System
-
-Uses templates for adding doctor, lab, and pharmacy fees.
-
-Computes total bill and processes payments.
-
-Laboratory
-
-Displays multiple test options.
-
-Allows user to select and run tests.
-
-Pharmacy
-
-Order medications with quantity.
-
-Ambulance Booking
-
-Detects nearest hospital based on pre-defined distances.
-
-Allows user to book an ambulance with phone number input.
+## Features
+- Search doctors by specialization
+- Make and cancel appointments
+- Book and cancel hospital rooms
+- Laboratory test selection
+- Automated billing system
+- Ambulance booking from nearest hospital
+- Error handling with custom exceptions
